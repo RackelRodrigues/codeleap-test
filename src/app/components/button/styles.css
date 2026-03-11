@@ -1,0 +1,26 @@
+button {
+  width: 5rem;
+  height: 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+button.primary {
+  background-color: var(--color-primary);
+}
+
+button .secondary {
+  background-color: var(--color-edit);
+}
+
+button .delete {
+  background-color: var(--color-delete);
+}
+button:disabled {
+  background-color: var(--gray-disabled);
+  cursor: not-allowed;
+}

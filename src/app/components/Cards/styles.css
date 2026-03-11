@@ -1,0 +1,43 @@
+.cards-content {
+  width: 100%;
+  border: 1px solid #000;
+  border-radius: 1rem;
+
+  p {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+}
+
+.header-card {
+  background-color: var(--color-primary);
+  padding: 0 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 1rem 1rem 0 0;
+
+  h2 {
+    color: #fff;
+    font-size: 1rem;
+  }
+}
+
+.name-post {
+  color: var(--gray-placeholder);
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.container-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  background-color: transparent;
+}

@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CodeLeap Test Project
 
-## Getting Started
+## Description
 
-First, run the development server:
+This is a simple project developed as part of the **CodeLeap test**.  
+The goal was to create a **functional CRUD application** with two screens, using **Next.js with TypeScript** and global state management through **Context API**, simulating an API for storing and handling data.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+The project demonstrates skills in:
+
+- Structuring a modern **Next.js** project with TypeScript
+- Creating **reusable components**
+- Managing global state with **Context API**
+- Navigating between multiple screens
+
+Even though this is a simple CRUD, the project was developed with a focus on **clean code, scalability, and best practices**.
+
+---
+
+## Technologies Used
+
+- **Next.js** – Modern React framework with built-in routing
+- **TypeScript** – For static typing and improved reliability
+- **React Context API** – Simulates an API for global state management
+- **CSS** – Custom styling for screens and components
+- **Reusable React Components** – Buttons, inputs, and cards designed for modularity
+
+---
+
+## Features
+
+- **Complete CRUD**: Create, Read, Update, and Delete records
+- **Screen navigation**: Two main screens with a simple workflow
+- **Global state management**: All data handled through Context API
+- **Reusable components**: Modular buttons, inputs, and cards for easier maintenance
+
+---
+
+## Project Structure
+
+```text
+/src
+  /components
+    - Button.tsx
+    - Input.tsx
+    - Card.tsx
+  /context
+    - AppContext.tsx
+  /pages
+    - index.tsx
+    - secondPage.tsx
+  /styles
+    - global.css
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+How to Run
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Clone the repository:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+git clone https://github.com/your-username/repository-name.git
 
-## Learn More
+Install dependencies:
 
-To learn more about Next.js, take a look at the following resources:
+npm install
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# or
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+yarn install
 
-## Deploy on Vercel
+Start the development server:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+npm run dev
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# or
+
+yarn dev
+
+The project will be available at: http://localhost:3000
+
+Notes
+
+This project was developed with simplicity and best practices in mind, aiming to demonstrate ability to create a functional CRUD, organize reusable components, and use Next.js with TypeScript.
+Although simple, it serves as a solid base for future enhancements, such as real API integration, authentication, and persistent data storage.
