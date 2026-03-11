@@ -1,4 +1,11 @@
-# CodeLeap Test Project – Gratitude Edition
+# CodeLeap Test Project 
+
+## 🌐 Live Demo
+
+You can access the deployed project here:  
+https://codeleap-test-xi.vercel.app/
+
+---
 
 ## 🙏 Special Note
 
