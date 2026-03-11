@@ -3,24 +3,33 @@ button {
   height: 2rem;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
-  color: white;
-  border: none;
+  color: #000;
+  background-color: transparent;
+  border: 1px solid #000;
   cursor: pointer;
   font-weight: 500;
 }
 
 button.primary {
   background-color: var(--color-primary);
+  color: #fff;
+  border: none;
 }
 
-button .secondary {
+button.secondary {
   background-color: var(--color-edit);
+  color: #fff;
+  border: none;
 }
 
-button .delete {
+button.delete {
   background-color: var(--color-delete);
+  color: white;
+  border: none;
 }
 button:disabled {
   background-color: var(--gray-disabled);
+  color: white;
   cursor: not-allowed;
+  border: none;
 }
