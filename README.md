@@ -1,37 +1,51 @@
-# CodeLeap Test Project
+# CodeLeap Test Project – Gratitude Edition
 
-## Description
+## 🙏 Special Note
+
+I am very grateful to participate in the **CodeLeap selection process**.  
+This project is my practical submission, demonstrating my skills in building a **functional CRUD application** using modern React technologies.  
+I sincerely thank the CodeLeap team for this opportunity!  
+
+---
+
+## Project Description
 
 This is a simple project developed as part of the **CodeLeap test**.  
-The goal was to create a **functional CRUD application** with two screens, using **Next.js with TypeScript** and global state management through **Context API**, simulating an API for storing and handling data.
+The goal was to create a **functional CRUD application** with features like creating, editing, deleting, liking, and filtering posts.  
+It also includes **login and logout functionality**, simulating a user system.  
 
-The project demonstrates skills in:
+Even though this project focuses on simplicity, it demonstrates:
 
-- Structuring a modern **Next.js** project with TypeScript
-- Creating **reusable components**
-- Managing global state with **Context API**
-- Navigating between multiple screens
-
-Even though this is a simple CRUD, the project was developed with a focus on **clean code, scalability, and best practices**.
+- Structuring a modern **Next.js project**  
+- Creating **reusable React components**  
+- Managing global state using **React Context API**  
+- Using **React Icons** for user interface elements  
+- Handling user interactions such as likes, filters, and login/logout  
 
 ---
 
 ## Technologies Used
 
-- **Next.js** – Modern React framework with built-in routing
-- **TypeScript** – For static typing and improved reliability
-- **React Context API** – Simulates an API for global state management
-- **CSS** – Custom styling for screens and components
-- **Reusable React Components** – Buttons, inputs, and cards designed for modularity
+- **Next.js** – React framework with built-in routing  
+- **React** – Component-based UI  
+- **TypeScript** – Type safety and improved code reliability  
+- **React Context API** – Global state management, simulating an API  
+- **CSS (basic)** – Styling for components and screens  
+- **React Icons** – Icons for likes, delete, edit, and filters  
+- **GitHub** – For version control and project hosting
+- **DTO (Data Transfer Object)** – Used to structure and map the post data between components and the application state.
+- **Vercel** – Used to deploy and host the project, making the application available online.
 
 ---
 
 ## Features
 
-- **Complete CRUD**: Create, Read, Update, and Delete records
-- **Screen navigation**: Two main screens with a simple workflow
-- **Global state management**: All data handled through Context API
-- **Reusable components**: Modular buttons, inputs, and cards for easier maintenance
+- **CRUD Operations**: Create, Read, Update, and Delete posts  
+- **Like System**: Users can like posts, and likes are displayed dynamically  
+- **Filter Posts**: Simple filtering for recent posts or sorting by time  
+- **Login & Logout**: Simulated login system  
+- **Reusable Components**: Buttons, inputs, cards, and modals  
+- **Clean Interface**: Functional UI with responsive design  
 
 ---
 
@@ -40,43 +54,42 @@ Even though this is a simple CRUD, the project was developed with a focus on **c
 ```text
 /src
   /components
-    - Button.tsx
-    - Input.tsx
-    - Card.tsx
+    - Button.tsx         # Reusable button component
+    - Input.tsx          # Input field with reusable styling
+    - Card.tsx           # Post card component with title, content, likes
+    - Modal.tsx          # Reusable modal for delete/edit actions
+    - Select.tsx         # Simple dropdown filter component
   /context
-    - AppContext.tsx
+    - GlobalContext.tsx     # Global state and simulated API
   /pages
-    - index.tsx
-    - secondPage.tsx
-  /styles
-    - global.css
+    - page.tsx          # Main page with login
+    - main.tsx     # Optional second with posts feed
+
+- global.css         # Basic CSS styles
+/public
+    - image.png        # Site favicon
 ```
 
-How to Run
+---
 
-Clone the repository:
+## Como Executar
+
+Clone o repositório:
 
 git clone https://github.com/your-username/repository-name.git
 
-Install dependencies:
+Instale as dependências:
 
-npm install
+npm install  
+npm run dev  
 
-# or
+ou
 
-yarn install
-
-Start the development server:
-
-npm run dev
-
-# or
-
+yarn install  
 yarn dev
 
-The project will be available at: http://localhost:3000
 
-Notes
 
-This project was developed with simplicity and best practices in mind, aiming to demonstrate ability to create a functional CRUD, organize reusable components, and use Next.js with TypeScript.
-Although simple, it serves as a solid base for future enhancements, such as real API integration, authentication, and persistent data storage.
+
+    
+ 
